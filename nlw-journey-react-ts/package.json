@@ -1,5 +1,6 @@
 {
   "name": "nlw-journey-react-ts",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +11,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-react": "^0.407.0",
+    "axios": "^1.7.2",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.400.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-day-picker": "^8.10.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "tailwind-variants": "^0.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -29,4 +35,4 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
   }
-}
+}  
